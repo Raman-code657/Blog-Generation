@@ -14,29 +14,4 @@ It is designed with a **graph-based architecture** that connects different compo
 
 ---
 
-## 📂 Project Structure
-bloggeneration/
-├── .gitignore             # Git ignore file
-├── .python-version        # Python version tracking
-├── app.py                 # Entry point for running the app
-├── main.py                # Alternative main script for execution
-├── langgraph.json         # Defines workflows and graph configuration
-├── request.json           # Example request payload for blog generation
-├── requirements.txt       # Python dependencies
-├── pyproject.toml         # Project metadata and dependencies
-├── uv.lock                # Lockfile for uv (dependency manager)
-├── src/
-│   ├── init.py
-│   ├── graphs/
-│   │   ├── init.py
-│   │   └── graph_builder.py    # Builds the workflow graph
-│   ├── llms/
-│   │   ├── init.py
-│   │   └── groqllm.py          # Groq LLM integration
-│   ├── nodes/
-│   │   ├── init.py
-│   │   └── blog_node.py        # Blog generation node
-│   └── states/
-│       ├── init.py
-│       └── bloggeneration.py   # Blog state management
-└── README.md              # Project documentation
+
